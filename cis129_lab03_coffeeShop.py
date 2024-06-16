@@ -1,8 +1,10 @@
 #Program to print the receipt of someone's coffee shop order
 #Prompt the user to enter how many coffess they bought
+#Prompt the user to enter how many matchas they bought 
 #Prompt the user to enter how many muffins they bought 
-#Python to calculate cost of coffees and muffins
-#Program to print subtotal of coffees and muffins
+#Prompt the user to enter how many bagels they bought 
+#Python to calculate cost of coffees, matchas, muffins, and bagels
+#Program to print subtotal of ordered items
 #Python to calculate tax and subtotal of order
 #Program to print total cost based on above 
 
