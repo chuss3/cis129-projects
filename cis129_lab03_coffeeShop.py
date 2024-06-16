@@ -64,6 +64,6 @@ print("---------")
 total=subtotal+tax
 
 #print the total cost to 2 decimal places
-print("Total: $", "{0:.2f}".format(total)) 
+print("Total: $", "{0:.2f}\n".format(total)) 
 print("Thank you! Please come back soon!") 
 print("***************************************")
