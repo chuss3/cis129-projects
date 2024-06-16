@@ -1,5 +1,5 @@
 #Program to print the receipt of someone's coffee shop order
-#Prompt the user to enter how many coffess they bought
+#Prompt the user to enter how many coffees they bought
 #Prompt the user to enter how many matchas they bought 
 #Prompt the user to enter how many muffins they bought 
 #Prompt the user to enter how many bagels they bought 
