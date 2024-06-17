@@ -49,7 +49,7 @@ else:
 
 # Step 6
 # This code prints the bonus information
-print("The store bonus amount is $",storeAmount)
+print("The store bonus amount is $", storeAmount)
 print("The employee bonus amount is $", empAmount)
 
 if (storeAmount == 6000 ) and (empAmount == 75):
