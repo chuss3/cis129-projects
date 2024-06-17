@@ -21,15 +21,15 @@ monthlySales = float(input(prompt1))
 # Step 3
 # This code determines the storeAmount bonus
 if monthlySales >= 110000:
-	storeAmount = 6000
+    storeAmount = 6000
 elif monthlySales >= 100000:
-        storeAmount = 5000
+    storeAmount = 5000
 elif monthlySales >= 90000:
-        storeAmount = 4000
+    storeAmount = 4000
 elif monthlySales >= 80000:
-        storeAmount = 3000
+    storeAmount = 3000
 else: 
-        storeAmount = 0  
+    storeAmount = 0  
 
 # Step 4
 # This code gets the percent of increase in sales
@@ -39,13 +39,13 @@ salesIncrease = salesIncrease / 100
 # Step 5 
 #This code determines the empAmount bonus
 if salesIncrease >= .05:
-	empAmount = 75
+    empAmount = 75
 elif salesIncrease >= .04:
-	empAmount = 50
+    empAmount = 50
 elif salesIncrease >= .03:
-	empAmount = 40
+    empAmount = 40
 else:
-	empAmount = 0
+    empAmount = 0
 
 # Step 6
 # This code prints the bonus information
@@ -53,4 +53,4 @@ print("The store bonus amount is $", storeAmount)
 print("The employee bonus amount is $", empAmount)
 
 if (storeAmount == 6000 ) and (empAmount == 75):
-	print('Congrats! You have reached the highest bonus amounts possible!')
+    print('Congrats! You have reached the highest bonus amounts possible!')
