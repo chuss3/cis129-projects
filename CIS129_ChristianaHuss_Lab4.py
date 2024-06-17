@@ -39,13 +39,13 @@ salesIncrease = salesIncrease / 100
 # Step 5 
 #This code determines the empAmount bonus
 if salesIncrease >= .05:
-		empAmount = 75
+	empAmount = 75
 elif salesIncrease >= .04:
-		empAmount = 50
+	empAmount = 50
 elif salesIncrease >= .03:
-		empAmount = 40
+	empAmount = 40
 else:
-		empAmount = 0
+	empAmount = 0
 
 # Step 6
 # This code prints the bonus information
