@@ -21,7 +21,7 @@ monthlySales = float(input(prompt1))
 # Step 3
 # This code determines the storeAmount bonus
 if monthlySales >= 110000:
-		storeAmount = 6000
+	storeAmount = 6000
 elif monthlySales >= 100000:
         storeAmount = 5000
 elif monthlySales >= 90000:
