@@ -22,7 +22,10 @@ phrase = str(input("Please enter the phrase you'd like to check: "))
 
 # Define function to test if phrase is a palindrome 
 def is_palindrome(x):
-    x = [element.lower() for element in x] # convert elements of phrase to lowercase 
+    x = re.sub(r'[^a-zA-Z0-9]','', x) # remove special characters from input
+    x = x.lower() # convert elements of phrase to lowercase 
+    x = x.replace(" ", "") # remove white spaces from user input 
+    
     stack = [] # create empty stack to store elements of phrase 
     
     for char in x: 
