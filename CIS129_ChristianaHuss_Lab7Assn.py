@@ -10,7 +10,7 @@ import re
 
 #this function gets the players names
 def input_names(one, two):
-    one = input("Please enter player 1s name: ") # first player to input their name 
+    one = input("Please enter player 1's name: ") # first player to input their name 
     two = input("Please enter player 2's name: ") # second player to input their name 
     print(f"Great! Welcome, {one} and {two}!") # welcome message to players 
     return one, two # return both names 
